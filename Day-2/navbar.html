@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        ul#navbar li{
+            display: inline-block;
+            width: 150px;
+            padding-right: 20px;
+            background-color: green;
+            line-height: 40px;
+            text-align: center;
+        }
+        ul#navbar li a{
+            text-decoration: none;
+            color: white;
+        }
+        ul#navbar li a:hover{
+            color: green;
+        }
+        ul#navbar li:hover{
+            background-color: white;
+        }
+        ul#navbar{
+            background-color: rgba(0, 200, 0, 0.7);
+            height: 40px;
+            text-align: right;
+        }
+        #subnav{
+            display: none;
+        }
+        .out{
+            text-align: center;
+        }
+        div.in{
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <ul id="navbar">
+        <li><a href="/">Home</a></li>
+        <ul id="subnav">
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+        </ul>
+        <li><a href="../Studentinfo.html">Studentinfo</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="../list.html">Listing</a></li>
+        <br><br><br>
+    </ul>
+    
+    <div class="out">
+        <div class="in">
+
+            <img src="img.jpeg">
+            
+        </div>
+    </div>
+</body>
+</html>
