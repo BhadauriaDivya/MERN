@@ -1,0 +1,11 @@
+:root{
+color-scheme: light dark;
+}
+main{
+    display: flex;
+    margin: 20px;
+    margin-top: 60px;
+}
+.l{
+    margin-right: 20px;
+}
