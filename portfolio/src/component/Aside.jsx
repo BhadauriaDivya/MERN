@@ -16,7 +16,7 @@ const Aside = () => {
               <figure className='imgg'>
                 <img src={Me} width={100} alt="That's Me"/>
               </figure>
-              <h1>Divyanshi Bhadauria</h1>
+              <h2>Divyanshi Bhadauria</h2>
               <div className='box'>Front-End Developer</div>
               <div className="line"></div>
                 <ul className='list'>
