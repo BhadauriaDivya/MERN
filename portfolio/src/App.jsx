@@ -6,8 +6,6 @@ import { Route, Routes } from 'react-router-dom'
 import About from './component/About'
 
 import './component/Style.css'
-import Aside from './component/Aside'
-import Main from './component/Main'
 import Home from './component/Home'
 
 function App() {
@@ -15,7 +13,6 @@ function App() {
   return (
     <>
     <Home/>
-      
     </>
   )
 }
