@@ -36,18 +36,14 @@ const Aside = () => {
                     <p className='list-title'>Phone</p>
                     <a className='list-info'>+91 6386483824</a>
                     </div>
-
                   </li>
-
                   <li className='item'>
                     <div className="icon"><CiLocationOn/></div>
                     <div className="list-data">
                     <p className='list-title'>Location</p>
                     <a className='list-info'>Delhi, India</a>
                     </div>
-
                   </li>
-
                   <li className='item'>
                     <div className="icon"><CiLinkedin/></div>
                     <div className="list-data">

@@ -17,11 +17,10 @@ const Resume = () => {
             <div className="edu-line"/>
             <div className="edu-circle"/>
             <h3>KIET Group Of Institute</h3>
-            <span>2023-2025</span>
+            <span>2023- Expected graduation 2025</span>
             <p>
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Master of Computer Application<br/> (MCA)
+
               </p>
         </li>
 
@@ -31,9 +30,8 @@ const Resume = () => {
             <h3>Swami Sukhdevanand College</h3>
             <span>2020-2023</span>
             <p>
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+              Bachelor of Science, Mathematics (BSc Mathematics)<br/>
+              Percentage - 61.85%
               </p>
         </li>
 
@@ -41,11 +39,10 @@ const Resume = () => {
         <div className="edu-circle2"/>
 
             <h3>Ryan International School</h3>
-            <span>2016-2020</span>
+            <span>2019-2020</span>
             <p>
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                High School<br/>
+                Percentage - 74.2%
               </p>
         </li>
 
