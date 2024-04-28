@@ -23,7 +23,6 @@ const Resume = () => {
 
               </p>
         </li>
-
         <li>
         <div className="edu-circle1"/>
 
@@ -34,10 +33,8 @@ const Resume = () => {
               Percentage - 61.85%
               </p>
         </li>
-
         <li>
         <div className="edu-circle2"/>
-
             <h3>Ryan International School</h3>
             <span>2019-2020</span>
             <p>
@@ -45,7 +42,6 @@ const Resume = () => {
                 Percentage - 74.2%
               </p>
         </li>
-
     </ol>
     </div>
     </div>
