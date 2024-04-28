@@ -357,3 +357,10 @@ h2{
 .edu-list span{
   color: var(--orange-yellow-crayola);
 }
+.img-wrap{
+  color: var(--orange-yellow-crayola);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}

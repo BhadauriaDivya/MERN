@@ -4,9 +4,10 @@ import './Style.css'
 import { CiLocationOn, CiMail, CiLinkedin } from "react-icons/ci";
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { FiGithub } from "react-icons/fi";
-
+import { FaInstagram } from "react-icons/fa";
 
 import Me from './Me.png'
+import { Link } from 'react-router-dom';
 
 const Aside = () => {
   return (
@@ -53,20 +54,19 @@ const Aside = () => {
                     <p className='list-title'>LinkedIn</p>
                     <a href='https://www.linkedin.com/in/divyanshi-bhadauria/' className='list-info'>divyanshi-bhadauria</a>
                     </div>
-
                   </li>
-
-                  <li className='item'>
-                    <div className="icon"><FiGithub/></div>
-                    <div className="list-data">
-                    <p className='list-title'>GitHub</p>
-                    <a href='https://github.com/BhadauriaDivya' className='list-info'>BhadauriaDivya</a>
-                    </div>
-
-                  </li>
-
                 </ul>
-
+                <div className="img-wrap">
+              <Link to='https://www.instagram.com/diivyaa_07/'>
+                <FaInstagram/>
+                </Link> 
+              <Link to='https://www.linkedin.com/in/divyanshi-bhadauria/'>
+                <CiLinkedin/>
+                </Link> 
+              <Link to='https://github.com/BhadauriaDivya'>
+                <FiGithub/>
+                </Link> 
+                </div>
             </div>
         </aside>
     </div>
