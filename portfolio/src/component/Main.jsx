@@ -9,7 +9,6 @@ import Resume from './Resume'
 
 const Main = () => {
   return (
-
     <>
    <div className="main">
     <nav className="navbarr">

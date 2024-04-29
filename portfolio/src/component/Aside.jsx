@@ -37,6 +37,7 @@ const Aside = () => {
                     <a className='list-info'>+91 6386483824</a>
                     </div>
                   </li>
+
                   <li className='item'>
                     <div className="icon"><CiLocationOn/></div>
                     <div className="list-data">
@@ -44,6 +45,7 @@ const Aside = () => {
                     <a className='list-info'>Delhi, India</a>
                     </div>
                   </li>
+
                   <li className='item'>
                     <div className="icon"><CiLinkedin/></div>
                     <div className="list-data">
@@ -51,7 +53,9 @@ const Aside = () => {
                     <a href='https://www.linkedin.com/in/divyanshi-bhadauria/' className='list-info'>divyanshi-bhadauria</a>
                     </div>
                   </li>
+
                 </ul>
+
                 <div className="img-wrap">
               <Link to='https://www.instagram.com/diivyaa_07/'>
                 <FaInstagram/>
@@ -63,6 +67,7 @@ const Aside = () => {
                 <FiGithub/>
                 </Link> 
                 </div>
+                
             </div>
         </aside>
     </div>
