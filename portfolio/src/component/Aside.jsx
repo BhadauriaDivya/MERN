@@ -50,7 +50,6 @@ const Aside = () => {
                     </div>
                   </li>
                 </ul>
-
                 <div className="img-wrap">
               <Link to='https://www.instagram.com/diivyaa_07/'>
                 <FaInstagram/>
@@ -62,7 +61,6 @@ const Aside = () => {
                 <FiGithub/>
                 </Link> 
                 </div>
-
             </div>
         </aside>
     </div>

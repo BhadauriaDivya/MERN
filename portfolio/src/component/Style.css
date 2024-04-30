@@ -364,3 +364,8 @@ h2{
   gap: 20px;
   align-items: center;
 }
+.learn{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

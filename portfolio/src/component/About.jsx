@@ -14,6 +14,25 @@ const About = () => {
       My aim is to bring across your message and identity in the most creative way.
       I would like to creat websites and web design for many brand companies.
       </p>
+      <h1>What I've Learn</h1>
+      <div className="yellowline"/>
+      <div className="learn">
+      <div className="card">
+        <h3>JavaScript</h3>
+      </div>
+      <div className="card">
+        <h3>ReactJS</h3>
+      </div>
+      <div className="card">
+        <h3>Bootstrap</h3>
+      </div>
+      <div className="card">
+        <h3>NodeJS</h3>
+      </div>
+      <div className="card">
+        <h3>MongoDB</h3>
+      </div>
+      </div>
       </div>
   )
 }
