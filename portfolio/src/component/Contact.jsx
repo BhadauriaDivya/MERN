@@ -5,7 +5,6 @@ import { IconContext } from "react-icons";
 const Contact = () => {
 
   return (
-
     <div className="skills">
       <h1>Contact Us</h1>
       <div className="yellowline"/>

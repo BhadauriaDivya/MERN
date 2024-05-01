@@ -3,7 +3,6 @@ import { IoBookOutline } from "react-icons/io5";
 
 const Resume = () => {
   return (
-    
     <div className="resume">
     <h1>Resume</h1>
     <div className="yellowline"/>
@@ -20,12 +19,10 @@ const Resume = () => {
             <span>2023- Expected graduation 2025</span>
             <p>
                 Master of Computer Application<br/> (MCA)
-
               </p>
         </li>
         <li>
         <div className="edu-circle1"/>
-
             <h3>Swami Sukhdevanand College</h3>
             <span>2020-2023</span>
             <p>
