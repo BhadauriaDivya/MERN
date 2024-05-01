@@ -3,7 +3,6 @@ import TicTacToe from './TicTacToe.png'
 
 const Project = () => {
   return (
-    
     <div className="project">
     <h1>Project</h1>
     <div className="yellowline"/>
@@ -16,7 +15,6 @@ const Project = () => {
               <a>Go somewhere</a>
             </div>
         </div>
-
         <div className="card">
             <img src="" className='card-img'/>
             <div>
@@ -25,7 +23,6 @@ const Project = () => {
               <a>Go somewhere</a>
             </div>
         </div>
-
         <div className="card">
             <img src="" className='card-img'/>
             <div>
