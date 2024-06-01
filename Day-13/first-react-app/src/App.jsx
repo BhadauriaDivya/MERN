@@ -1,5 +1,6 @@
 // import UseStateEx from "./component2/UseStateEx"
 
+import Form from "./component2/Form"
 import Login from "./component2/Login"
 import UseContextHooksEx from "./component2/UseContextHooksEx"
 
@@ -15,7 +16,8 @@ return(
     {/* <UseEffectEx/> */}
     {/* <UseReducerEx/> */}
     {/* <UseContextHooksEx/> */}.
-    <Login/>
+    {/* <Login/>*/}
+    <Form/>
   </>
  )
 }
