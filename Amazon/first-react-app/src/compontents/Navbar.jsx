@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-    <div>
-        <nav className="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark" id="fcolor">
+  <div className='w-100'>
+  <div>
+  <nav className="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark" id="fcolor">
   <div className="container-fluid ">
     <a className="navbar-brand" href="#">
     <img src="https://wildfiresocial.com/wp-content/uploads/2019/01/amazon-logo-white._cb1509666198_-300x90.png" className="imgpho" /></a>
@@ -12,12 +12,18 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav col-12 text-center">
-        <li className="nav-item col-4">
-          <a className="nav-link" href="#">Deliver to Your Address</a>
+      <ul className="navbar-nav col-10 text-center">
+        <li className="nav-item col-3">
+          <a className="nav-link" href="#"><i class="bi bi-geo-alt"/>Deliver to Your Address</a>
         </li>
-        <li className="nav-item col-2">
-          <a className="nav-link" href="#">EN</a>
+        <li className="nav-item col-5">
+        <form class="d-flex" role="search">
+        <input class="form-control rounded-0 rounded-start" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-warning rounded-0 rounded-end" type="submit"><i class="bi bi-search"/></button>
+      </form>
+        </li>
+        <li className="nav-item col-1">
+          <a className="nav-link" href="#"><FontAwesomeIcon icon="fa-solid fa-flag" />EN</a>
         </li>
         <li className="nav-item col-2">
           <a className="nav-link" href="#">Hello User</a>
@@ -25,14 +31,16 @@ const Navbar = () => {
         <li className="nav-item col-2">
           <a className="nav-link" href="#">Returns & Orders</a>
         </li>
-        <li className="nav-item col-2">
-          <a className="nav-link" href="#"><img src="https://img.icons8.com/?size=100&id=9671&format=png&color=ffffff" className="imgsiz" /></a>
+        <li className="nav-item col-1">
+          <a className="nav-link" href="#"><img src="https://img.icons8.com/?size=100&id=9671&format=png&color=ffffff" className="imgsiz" /> Card</a>
         </li>
       </ul>
     </div>
   </div>
-</nav>
+  </nav>
         </div>
+
+
     <div>
         <nav className="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark" id="gcolor" >
   <div className="container-fluid">

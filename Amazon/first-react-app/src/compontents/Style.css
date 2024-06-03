@@ -9,11 +9,14 @@
     height: 30px;
 }
 .imgsiz{
-    width:30px;
+    width:25px;
 }
 .carou{
-    background-color: aqua;
+    height: 300px;
 }
 .cardimg{
-    width: 150px;
+    width: 125px;
+}
+.card{
+    width:300px;
 }
