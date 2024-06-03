@@ -1,10 +1,8 @@
-import Home from "./compontents/Home"
-
-
+import Home from './components/Home'
 function App() {
 return(
   <>
-    <Home/>
+  <Home/>
   </>
  )
 }

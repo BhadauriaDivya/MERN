@@ -17,6 +17,16 @@
 .cardimg{
     width: 125px;
 }
-.card{
+.cardimg2{
+    margin: 5px;
+    width: 160px;
+}
+.card1{
     width:300px;
+}
+.card2{
+    width: 1224px;
+}
+.whitecol{
+    color: white;
 }

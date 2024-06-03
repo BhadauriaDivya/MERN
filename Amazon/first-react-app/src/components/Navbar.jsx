@@ -14,16 +14,16 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav col-10 text-center">
         <li className="nav-item col-3">
-          <a className="nav-link" href="#"><i class="bi bi-geo-alt"/>Deliver to Your Address</a>
+          <a className="nav-link" href="#"><i className="bi bi-geo-alt"/>Deliver to Your Address</a>
         </li>
         <li className="nav-item col-5">
-        <form class="d-flex" role="search">
-        <input class="form-control rounded-0 rounded-start" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-warning rounded-0 rounded-end" type="submit"><i class="bi bi-search"/></button>
+        <form className="d-flex" role="search">
+        <input className="form-control rounded-0 rounded-start" type="search" placeholder="Search" aria-label="Search"/>
+        <button className="btn btn-warning rounded-0 rounded-end" type="submit"><i className="bi bi-search"/></button>
       </form>
         </li>
         <li className="nav-item col-1">
-          <a className="nav-link" href="#"><FontAwesomeIcon icon="fa-solid fa-flag" />EN</a>
+          <a className="nav-link" href="#">EN</a>
         </li>
         <li className="nav-item col-2">
           <a className="nav-link" href="#">Hello User</a>
@@ -48,27 +48,42 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0 whitecol"  >
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Amazon miniTV</a>
+          <a className="nav-link whitecol" href="#">Amazon miniTV</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Sell</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Gift Cards</a>
+          <a className="nav-link" href="#">Best Sellers</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Amazon Pay</a>
+          <a className="nav-link" href="#">Mobiles</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Buy Again</a>
+          <a className="nav-link" href="#">Today's Deals</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Coupons</a>
+          <a className="nav-link" href="#">Electronics</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Fashion</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Customer Services</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Home & Kitchen</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">New Releases</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Amazone Pay</a>
         </li>
       </ul>
     </div>
