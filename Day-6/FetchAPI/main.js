@@ -22,6 +22,8 @@ fetchdata();
 
 // fetch("https://api.github.com/users")
 //     .then(dataJSON=>dataJSON.json())
+
+
 //     .then(data=>{
 //         for(person of data){
 

@@ -5,7 +5,7 @@ const Navbar = () => {
   <div className='w-100'>
   <div>
   <nav className="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark" id="fcolor">
-  <div className="container-fluid ">
+  <div className="container-fluid">
     <a className="navbar-brand" href="#">
     <img src="https://wildfiresocial.com/wp-content/uploads/2019/01/amazon-logo-white._cb1509666198_-300x90.png" className="imgpho" /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

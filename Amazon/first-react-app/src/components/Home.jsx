@@ -3,6 +3,7 @@ import './Style.css'
 import Navbar from './Navbar'
 import Carousel from './Carousel'
 import Card from './Card'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
     <Carousel/>
     <br/>
     <Card/>
+    <br/>
+    <Footer/>
     </div>
   )
 }
