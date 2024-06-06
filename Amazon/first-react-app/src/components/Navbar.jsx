@@ -40,8 +40,6 @@ const Navbar = () => {
   </div>
   </nav>
 </div>
-
-
     <div>
         <nav className="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark" id="gcolor" >
   <div className="container-fluid">
