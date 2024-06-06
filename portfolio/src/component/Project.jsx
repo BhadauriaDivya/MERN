@@ -2,6 +2,7 @@ import React from 'react'
 import TicTacToe from './TicTacToe.png'
 import Amazon from './Amazon.png'
 
+
 const Project = () => {
   return (
     <div className="project">
