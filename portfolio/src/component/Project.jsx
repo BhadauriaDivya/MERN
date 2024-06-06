@@ -1,5 +1,6 @@
 import React from 'react'
 import TicTacToe from './TicTacToe.png'
+import Amazon from './Amazon.png'
 
 const Project = () => {
   return (
@@ -16,9 +17,9 @@ const Project = () => {
             </div>
         </div>
         <div className="card">
-            <img src="" className='card-img'/>
+            <img src={Amazon} className='card-img'/>
             <div>
-              <h2>Tic Tac Toe</h2>
+              <h2>Amazon Clone</h2>
               <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a>Go somewhere</a>
             </div>

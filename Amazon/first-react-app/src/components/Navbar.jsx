@@ -85,11 +85,11 @@ const Navbar = () => {
           <a className="nav-link" href="#">Amazone Pay</a>
         </li>
       </ul>
+      </div>
     </div>
+    </nav>
   </div>
-</nav>
-    </div>
-    </div>
+</div>
   )
 }
 
