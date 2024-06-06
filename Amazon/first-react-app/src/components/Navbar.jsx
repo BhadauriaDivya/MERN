@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './logo.png'
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
   <nav className="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark" id="fcolor">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
-    <img src="https://wildfiresocial.com/wp-content/uploads/2019/01/amazon-logo-white._cb1509666198_-300x90.png" className="imgpho" /></a>
+    <img src={logo} className="imgpho" /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -38,7 +39,7 @@ const Navbar = () => {
     </div>
   </div>
   </nav>
-        </div>
+</div>
 
 
     <div>

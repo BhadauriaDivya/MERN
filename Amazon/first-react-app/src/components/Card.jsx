@@ -126,7 +126,6 @@ const Card = () => {
             
             <img src="https://m.media-amazon.com/images/I/718Sll+V5pL._AC_SY400_.jpg" className="cardimg2" />
 
-            <img src="https://m.media-amazon.com/images/I/61S5ve01frL._AC_SY400_.jpg" className="cardimg2" />
 
 
 
