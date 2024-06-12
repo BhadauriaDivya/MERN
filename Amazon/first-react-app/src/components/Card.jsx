@@ -81,7 +81,7 @@ const Card = () => {
           </div>
         </div>        
     </div>
-
+    
     {/* fourth */}
     <div className="card card1 border border-2 rounded-0 ms-2 ps-2 py-3" >
         <p className='fs-4'><b>Automotive essentials | Up to 60% off</b></p>
@@ -109,7 +109,6 @@ const Card = () => {
       </div>
     </div>
     <div>
-      
     <div className="card card2 border border-2 rounded-0 ms-2 mt-4" >
       <div className='mt-3 ms-3 '><b>Min. 30% off | Top deals in home decor products from Small businesses</b></div>
         <div className='d-flex m-2'>
@@ -123,15 +122,9 @@ const Card = () => {
         
             <img src="https://m.media-amazon.com/images/I/71Xwn1AUQdL._AC_SY400_.jpg" className="cardimg2" />
 
-            
-            <img src="https://m.media-amazon.com/images/I/718Sll+V5pL._AC_SY400_.jpg" className="cardimg2" />
-
-
-
-
+         <img src="https://m.media-amazon.com/images/I/718Sll+V5pL._AC_SY400_.jpg" className="cardimg2" />
         </div>        
       </div>
-
     </div>
     </div>
   )
