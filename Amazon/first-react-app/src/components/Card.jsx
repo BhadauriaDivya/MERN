@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import Navbar from './Navbar'
+
 
 const Card = () => {
   const [counter,setCounter]=useState(0);
@@ -115,9 +117,9 @@ const Card = () => {
       <div className='mt-3 ms-3 '><b>Min. 30% off | Top deals in home decor products from Small businesses</b></div>
         <div className='d-flex m-2'>
             <img src="https://m.media-amazon.com/images/I/71uB4BEEx-L._AC_SY400_.jpg" className="cardimg2" />
-              <span className='btn btn-primary count' onClick={()=>{setCounter(counter+1)}}>
+              {/* <span className='btn btn-primary count' onClick={()=>{setCounter(counter+1)}}>
                 Add to card
-              </span>
+              </span> */}
             <img src="https://m.media-amazon.com/images/I/91s7rC+IDBL._AC_SY400_.jpg" className="cardimg2" />
               
             <img src="https://m.media-amazon.com/images/I/71Eugcj1NFL._AC_SY400_.jpg" className="cardimg2" />

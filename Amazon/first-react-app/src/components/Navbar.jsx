@@ -1,9 +1,9 @@
 import React from 'react'
 import logo from './logo.png'
-import { useState } from 'react';
 
 const Navbar = () => {
-  const [counter,setCounter]=useState(0);
+
+  // const [counter,setCounter]=useState(0);
 
   return (
   <div className='w-100'>
@@ -37,9 +37,9 @@ const Navbar = () => {
         </li>
         <li className="nav-item col-1">
           <a className="nav-link" href="#">
-            <img src="https://img.icons8.com/?size=100&id=9671&format=png&color=ffffff" className="imgsiz"/>
-            <span className='count'>{counter}</span>
-            Card
+            <img src="https://img.icons8.com/?size=100&id=9671&format=png&color=ffffff" className="imgsiz"/> 
+            <span className='count'><b>0</b></span>
+             Card
           </a>
         </li>
       </ul>

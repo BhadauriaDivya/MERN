@@ -12,7 +12,8 @@
     height: 30px;
 }
 .imgsiz{
-    width:25px;
+    width:20px;
+    margin: 3px;
 }
 .carou{
     height: 300px;
@@ -46,5 +47,10 @@
     text-decoration: none;
   }
 .count{
-    
+
+        color: #f08804;
+        position: absolute; 
+        top: 4px;
+        right:100px;
+        width: 1px;
 }
