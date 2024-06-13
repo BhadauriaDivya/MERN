@@ -2,7 +2,6 @@ import React from 'react'
 import logo from './logo.png'
 
 const Navbar = () => {
-
   // const [counter,setCounter]=useState(0);
 
   return (
