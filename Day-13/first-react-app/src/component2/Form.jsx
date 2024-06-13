@@ -13,6 +13,7 @@ const Form = () => {
         const value=event.target.value;
         setUserInfo({...userInfo,[name]:value});
     }
+
   return (
     <div className='container col-4 text-center'>
         <h1><em>Login Form</em></h1>
@@ -27,7 +28,6 @@ const Form = () => {
             <div className='d-flex justify-content-center'>
                 <button className='btn  btn-success col-3 d-grid gap-2 mt-3' type="submit">Submit</button>
             </div>
-
         </form>
     </div>
   )

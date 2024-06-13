@@ -1,14 +1,17 @@
 import React from 'react'
 import logo from './logo.png'
+import { useState } from 'react';
 
 const Navbar = () => {
+  const [counter,setCounter]=useState(0);
+
   return (
   <div className='w-100'>
   <div>
   <nav className="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark" id="fcolor">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
-    <img src={logo} className="imgpho" /></a>
+    <img src={logo} className="imgpho"/></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -19,9 +22,9 @@ const Navbar = () => {
         </li>
         <li className="nav-item col-5">
         <form className="d-flex" role="search">
-        <input className="form-control rounded-0 rounded-start" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-warning rounded-0 rounded-end" type="submit"><i className="bi bi-search"/></button>
-      </form>
+          <input className="form-control rounded-0 rounded-start" type="search" placeholder="Search" aria-label="Search"/>
+          <button className="btn btn-warning rounded-0 rounded-end" type="submit"><i className="bi bi-search"/></button>
+        </form>
         </li>
         <li className="nav-item col-1">
           <a className="nav-link" href="#">EN</a>
@@ -33,7 +36,11 @@ const Navbar = () => {
           <a className="nav-link" href="#">Returns & Orders</a>
         </li>
         <li className="nav-item col-1">
-          <a className="nav-link" href="#"><img src="https://img.icons8.com/?size=100&id=9671&format=png&color=ffffff" className="imgsiz" /> Card</a>
+          <a className="nav-link" href="#">
+            <img src="https://img.icons8.com/?size=100&id=9671&format=png&color=ffffff" className="imgsiz"/>
+            <span className='count'>{counter}</span>
+            Card
+          </a>
         </li>
       </ul>
     </div>

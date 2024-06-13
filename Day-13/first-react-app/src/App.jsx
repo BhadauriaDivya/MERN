@@ -12,8 +12,8 @@ import UseEffectEx from "./component2/UseEffectEx"
 function App() {
 return(
   <>
-    {/* <UseStateEx/> */}
-    <UseEffectEx/>
+    <UseStateEx/>
+    {/* <UseEffectEx/> */}
     {/* <UseReducerEx/> */}
     {/* <UseContextHooksEx/> */}.
     {/* <Login/>*/}

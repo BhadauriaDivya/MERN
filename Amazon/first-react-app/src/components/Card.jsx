@@ -1,20 +1,22 @@
 import React from 'react'
+import { useState } from 'react'
 
 const Card = () => {
+  const [counter,setCounter]=useState(0);
   return (
     <div>
     <div className='d-flex'>
       {/* first */}
           <div className="card card1 border border-2 rounded-0 ms-2 ps-2 py-3" >
         <p className='fs-4'><b>Appliances for your home | Up to 55% off</b></p>
-        <div className='d-flex '>
+        <div className='d-flex'>
           <div className='lh-1 m-2'>
             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-372x232----B08RDL6H79._SY232_CB667322346_.jpg" className="cardimg" />
             <p>Air Conditioners</p>
           </div>
           <div className='lh-1 m-2'>
-        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B08345R1ZW---372x232._SY232_CB667322346_.jpg" className="cardimg" />
-          <p>Refrigerators</p>
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B08345R1ZW---372x232._SY232_CB667322346_.jpg" className="cardimg" />
+            <p>Refrigerators</p>
           </div>
         </div>
         <br/>
@@ -29,7 +31,7 @@ const Card = () => {
           </div>
         </div>     
     </div>
-
+    
     {/* second */}
     <div className="card card1 border border-2 rounded-0 ms-2 ps-2 py-3" >
         <p className='fs-4'><b>Revamp your home in style </b></p>
@@ -113,13 +115,15 @@ const Card = () => {
       <div className='mt-3 ms-3 '><b>Min. 30% off | Top deals in home decor products from Small businesses</b></div>
         <div className='d-flex m-2'>
             <img src="https://m.media-amazon.com/images/I/71uB4BEEx-L._AC_SY400_.jpg" className="cardimg2" />
-
+              <span className='btn btn-primary count' onClick={()=>{setCounter(counter+1)}}>
+                Add to card
+              </span>
             <img src="https://m.media-amazon.com/images/I/91s7rC+IDBL._AC_SY400_.jpg" className="cardimg2" />
               
             <img src="https://m.media-amazon.com/images/I/71Eugcj1NFL._AC_SY400_.jpg" className="cardimg2" />
               
             <img src="https://m.media-amazon.com/images/I/718DSiX9NLL._AC_SY400_.jpg" className="cardimg2" />
-        
+
             <img src="https://m.media-amazon.com/images/I/71Xwn1AUQdL._AC_SY400_.jpg" className="cardimg2" />
 
          <img src="https://m.media-amazon.com/images/I/718Sll+V5pL._AC_SY400_.jpg" className="cardimg2" />
