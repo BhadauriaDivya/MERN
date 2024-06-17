@@ -1,7 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import Navbar from './Navbar'
-
 
 const Card = () => {
   const [counter,setCounter]=useState(0);
@@ -33,7 +31,6 @@ const Card = () => {
           </div>
         </div>     
     </div>
-    
     {/* second */}
     <div className="card card1 border border-2 rounded-0 ms-2 ps-2 py-3" >
         <p className='fs-4'><b>Revamp your home in style </b></p>
@@ -59,7 +56,6 @@ const Card = () => {
           </div>
         </div>        
     </div>
-
     {/* third */}
     <div className="card card1 border border-2 rounded-0 ms-2 ps-2 py-3" >
         <p className='fs-4'><b>Starting ₹99 | Amazon Brands & more </b></p>
@@ -84,8 +80,7 @@ const Card = () => {
           <p>Up to 60% off | Jackets, dresses & more </p>
           </div>
         </div>        
-    </div>
-    
+    </div>    
     {/* fourth */}
     <div className="card card1 border border-2 rounded-0 ms-2 ps-2 py-3" >
         <p className='fs-4'><b>Automotive essentials | Up to 60% off</b></p>
