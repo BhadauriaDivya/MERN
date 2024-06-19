@@ -35,16 +35,13 @@ const Login = () => {
     <div>
         <h2>Login Information</h2>
         <form className='d-flex flex-column col-3' >
-
             <lable htmlFor="name">Enter username</lable>
             {/* <input type="text" name="user" value={user} onChange={changeUser}/> */}
             {/* <input type="text" name="user" value={userInfo.user} onChange={changeUserInfo}/> */}
             <input ref={userRef} type="text" name="user" value={userInfo.user} onChange={changeUserInfo}/>
-
             <lable htmlFor="pass">Enter password</lable>
             {/* <input type="password" name="pass" value={pass} onChange={changePass}/> */}
             <input type="password" name="pass" value={userInfo.pass} onChange={changeUserInfo}/>
-
         </form>
 
         {/* <h2>User:{user}</h2>
