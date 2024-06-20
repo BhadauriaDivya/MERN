@@ -9,8 +9,7 @@ const UseReducerEx = () => {
     //// const reducer=(color,action)=>{
     
     const reducer=(state,action)=>{
-        switch(action){
-    
+        switch(action){    
             //// case "red": return color="#ff0000";
             //// case "green": return color="#00ff00";
             //// case "blue": return color="#0000ff";
@@ -32,7 +31,7 @@ const UseReducerEx = () => {
                         //to change color give color in dispatch
                         //state=color
                         //useRender is use for Complex state management
-
+                        
 return (
         // Alternative of UseState when the data is large
         

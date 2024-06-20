@@ -16,11 +16,11 @@ const UseStateEx=()=>{
 
     const changeName=()=>{
         // setUserInfo({name:"KIET MCA"});
-        setUserInfo({...userInfo, name:"KIET MCA"});     //Spread Operator
+        setUserInfo({...userInfo, name:"KIET MCA"});   //Spread Operator
         console.log(userInfo.name);
     };
-    
-  return (
+
+    return (
     <div>
         {/* <h1>Name:{name}</h1> */}
         <h1>Name:{userInfo.name}</h1>
@@ -35,8 +35,8 @@ const UseStateEx=()=>{
                 setCounter((prevCounter)=>prevCounter+1);
 
                 // setCounter(counter+1);
-                // setCounter(counter+1);              individual rendring
-                // setCounter(counter+1);              all three counter will hove 0 value so it witll not increse 3
+                // setCounter(counter+1);     individual rendring
+                // setCounter(counter+1);     all three counter will hove 0 value so it witll not increse 3
             }}
         >
             {/* Increment Counter */}
