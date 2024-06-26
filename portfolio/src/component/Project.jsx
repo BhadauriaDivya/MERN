@@ -2,7 +2,6 @@ import React from 'react'
 import TicTacToe from './TicTacToe.png'
 import Amazon from './Amazon.png'
 
-
 const Project = () => {
   return (
     <div className="project">
@@ -14,7 +13,7 @@ const Project = () => {
             <div>
               <h2>Tic Tac Toe</h2>
               <p></p>
-              <a>Go somewhere</a>
+              <a href="#">Go somewhere</a>
             </div>
         </div>
         <div className="card">
@@ -22,7 +21,7 @@ const Project = () => {
             <div>
               <h2>Amazon Clone</h2>
               <p></p>
-              <a>Go somewhere</a>
+              <a href="#">Go somewhere</a>
             </div>
         </div>
         <div className="card">
