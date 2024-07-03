@@ -106,7 +106,6 @@ body{
   gap: 15px;
   flex-direction: column; 
 }
-
 .imgg{
   background: var(--bg-gradient-onyx);
   border-radius: 20px 20px 0 0;

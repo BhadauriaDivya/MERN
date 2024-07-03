@@ -16,7 +16,7 @@ const Contact = () => {
     <textarea name="message" className="form-input-msg" placeholder="Your Message" required="" data-form-input=""/>
     <button className="form-btn" type="submit" disabled="" data-form-btn="">
             <IconContext.Provider value={{ size: "20px" }}>
-            <IoIosSend/>
+              <IoIosSend/>
             </IconContext.Provider>
         Send Message
     </button>
