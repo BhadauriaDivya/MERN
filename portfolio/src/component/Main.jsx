@@ -16,7 +16,7 @@ const Main = () => {
 
       <li>
           <NavLink to="/">
-                    About
+            About
           </NavLink>
       </li>
 
