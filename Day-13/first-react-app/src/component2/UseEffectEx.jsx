@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 const UseEffectEx = () => {
-    const [name,setName] = useState("KIET");                  //UseEffect function tb call hoga jb bhi koi change ho jaise idhar name change ho rha hai 
+    const [name,setName] = useState("KIET");           //UseEffect function tb call hoga jb bhi koi change ho jaise idhar name change ho rha hai 
     const [course, setCourse] = useState("B.Tech"); 
     const changeName=()=>{
         setName("KIET MCA");
