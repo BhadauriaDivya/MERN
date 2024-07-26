@@ -9,7 +9,7 @@ const Resume = () => {
     <div className="edu">
     <div className="title-wrap">
         <div className="icon-book"><IoBookOutline/></div>
-        <h2>Education</h2>
+    <h2>Education</h2>
     </div>
     <ol className='edu-list'>
         <li className='edu-item'>
