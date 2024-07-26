@@ -15,10 +15,10 @@ const Contact = () => {
     <input type="tel" name="tel" className="form-input" placeholder="Mobile Number" required="" data-form-input=""/>
     <textarea name="message" className="form-input-msg" placeholder="Your Message" required="" data-form-input=""/>
     <button className="form-btn" type="submit" disabled="" data-form-btn="">
-            <IconContext.Provider value={{ size: "20px" }}>
-              <IoIosSend/>
-            </IconContext.Provider>
-        Send Message
+        <IconContext.Provider value={{ size: "20px" }}>
+          <IoIosSend/>
+        </IconContext.Provider>
+      Send Message
     </button>
     </div>
     </form>

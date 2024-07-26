@@ -13,37 +13,31 @@ const Main = () => {
    <div className="main">
     <nav className="navbarr">
     <ul className='nav-list'>
-
       <li>
           <NavLink to="/">
             About
           </NavLink>
       </li>
-
       <li>
           <NavLink to="/resume">
             Resume
           </NavLink>
       </li>
-
       <li>
           <NavLink to="/project">
             Project
           </NavLink>
       </li>
-
       <li>
           <NavLink to="/skills">
           Skills
           </NavLink>
       </li>
-
       <li>
           <NavLink to="/contact">
             Contact
           </NavLink>
       </li>
-      
     </ul>
     </nav>
     <Routes>
