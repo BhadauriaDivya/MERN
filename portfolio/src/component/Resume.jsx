@@ -1,15 +1,17 @@
 import React from 'react'
 import { IoBookOutline } from "react-icons/io5";
 
-const Resume = () => {
+const Resume = ( ) => {
   return (
     <div className="resume">
     <h1>Resume</h1>
     <div className="yellowline"/>
     <div className="edu">
     <div className="title-wrap">
-        <div className="icon-book"><IoBookOutline/></div>
-    <h2>Education</h2>
+        <div className="icon-book">
+          <IoBookOutline/>
+        </div>
+        <h2>Education</h2>
     </div>
     <ol className='edu-list'>
         <li className='edu-item'>
