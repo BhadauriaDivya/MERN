@@ -14,7 +14,6 @@
 // import Student from './component/Student'
 import MyMovie from './component/MyMovie'
 
-
 function App() {
 return(
   <>
@@ -25,11 +24,9 @@ return(
       <Route path="/card" element={<MyCard/>} />
       <Route path="/counter" element={<MyCounter/>}/>
       <Route path="/lang" element={<Languages/>}/>
-
       <Route path="/student" element={<Student/>}>
         <Route path="/student/:name" element={<Student/>}/>                  {/* /:name ---> DYNAMIC NESTING ROUTING */}
       {/* </Route>
-
       <Route path="/product" element={<Product/>}>
       //   {/* Static Nesting Routing */}
       {/* //     <Route path="product1" element={<Product1/>}/>
