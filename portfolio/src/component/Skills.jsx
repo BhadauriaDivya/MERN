@@ -16,7 +16,7 @@ const Skills = () => {
         <div className="cards">Python</div>
         <div className="cards">JAVA</div>
         <div className="cards">C</div>
-        </div>
+      </div>
       </div>
   )
 }
