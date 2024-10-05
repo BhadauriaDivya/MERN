@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react'           //rafce
 
 const Card = (props) => {
     const {title,description,price,brand,category,thumbnail}=props;
