@@ -84,7 +84,6 @@ body{
   width: 831px;
 }
 .project{
-  
   width: 831px;
 }
 .sidebar, .main{
@@ -106,11 +105,7 @@ body{
   gap: 15px;
   flex-direction: column; 
 }
-.imgg{
-  background: var(--bg-gradient-onyx);
-  border-radius: 20px 20px 0 0;
-  margin-bottom: 0;
-}
+
 .box{
   border: 1px solid var(--jet);
   border-radius: 20px;
@@ -178,7 +173,7 @@ a{
   right: 0;
   width: max-content;
   border-radius: 0 20px;
-  padding: 0 20px;
+  padding: 8px 20px;
   box-shadow: none;
   background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
@@ -208,7 +203,7 @@ a{
   text-align: center;
   width: 320px;
   align-content: center;
-  font-weight:800
+  font-weight:800;
 }
 .cards:hover{
   transform: scale(1.05);
@@ -225,9 +220,12 @@ a{
 .card{
   text-align: center;
   margin: 30px;
+  padding-bottom: 15px;
   width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 20px;
-  border: 1px solid var(--jet);
+  border: px solid var(--jet);
   background: var(--bg-gradient-ony);
 }
 .card-img{
@@ -282,6 +280,7 @@ a{
 }
 .resume{
   width: 831px;
+  height: 450px;
 }
 .edu{
   margin-top: 40px;
@@ -308,17 +307,23 @@ a{
 h2{
   margin: 0;
 }
-.edu-list{
+.edulist{
   list-style: none;
 }
-.edu-line{
+.eduline{
   content: "";
   position: absolute;
   top: 167px;
   left: 47px;
   width: 1px;
-  height: calc(100% - 310px);
+  height: calc(100% - 293px);
   background: var(--jet);
+}
+.content{
+  position: relative;
+  top: 16px;
+  left: 60px;
+
 }
 .edu-circle{
     content: "";
@@ -334,7 +339,7 @@ h2{
 .edu-circle1{
     content: "";
     position: absolute;
-    top: 325px;
+    top: 288px;
     left: 45px;
     height: 6px;
     width: 6px;
@@ -345,7 +350,7 @@ h2{
 .edu-circle2{
     content: "";
     position: absolute;
-    top: 455px;
+    top: 385px;
     left: 45px;
     height: 6px;
     width: 6px;
@@ -353,7 +358,7 @@ h2{
     border-radius: 50%;
     box-shadow: 0 0 0 4px var(--jet);
 }
-.edu-list span{
+.edulist span{
   color: var(--orange-yellow-crayola);
 }
 .img-wrap{

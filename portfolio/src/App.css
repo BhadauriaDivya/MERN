@@ -1,6 +1,11 @@
 :root{
 color-scheme: light dark;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 main{
     display: flex;
     margin: 20px;

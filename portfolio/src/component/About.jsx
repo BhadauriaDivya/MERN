@@ -27,10 +27,13 @@ const About = () => {
         <h3>Bootstrap</h3>
       </div>
       <div className="card">
-        <h3>NodeJS</h3>
+        <h3>CSS</h3>
       </div>
       <div className="card">
-        <h3>MongoDB</h3>
+        <h3>HTML</h3>
+      </div>
+      <div className="card">
+        <h3>Java</h3>
       </div>
     </div>
   </div>

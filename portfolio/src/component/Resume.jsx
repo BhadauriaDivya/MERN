@@ -13,33 +13,40 @@ const Resume = ( ) => {
         </div>
         <h2>Education</h2>
     </div>
-    <ol className='edu-list'>
-        <li className='edu-item'>
-            <div className="edu-line"/>
+    <ol className='edulist'>
+        <li className='eduitem'>
+            <div className="eduline"/>
             <div className="edu-circle"/>
+            <div className="content">
+              
             <h3>KIET Group Of Institute</h3>
             <span>2023- Expected graduation 2025</span>
             <p>
                 Master of Computer Application<br/> (MCA)
               </p>
+            </div>
         </li>
         <li>
         <div className="edu-circle1"/>
+        <div className="content">
+          <br/>
             <h3>Swami Sukhdevanand College</h3>
             <span>2020-2023</span>
             <p>
-              Bachelor of Science, Mathematics (BSc Mathematics)<br/>
-              Percentage - 61.85%
+              Bachelor of Science, Mathematics <br/>(BSc Mathematics)<br/>
               </p>
+              </div>
         </li>
         <li>
         <div className="edu-circle2"/>
+        <div className="content">
+          <br/>
             <h3>Ryan International School</h3>
             <span>2019-2020</span>
             <p>
                 High School<br/>
-                Percentage - 74.2%
               </p>
+              </div>
         </li>
     </ol>
     </div>
