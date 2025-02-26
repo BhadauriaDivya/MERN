@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './TodoStyle.css'
+import { CiLinkedin } from 'react-icons/ci';
+import { Link } from 'react-router-dom'
 
 const Todo = () => {
   const [todo,setTodo]=useState([]);
@@ -44,6 +46,10 @@ const Todo = () => {
         </div>}
       </div>
     </div>
+    <div className="footer">
+      <p style={{textAlign:'center'}}>© 2025 Divyanshi Bhadauria </p>
+      
+      </div>
     </div>
   )
 }

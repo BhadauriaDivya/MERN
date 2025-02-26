@@ -1,5 +1,7 @@
 import React from 'react'
 import { IoBookOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
+import MyResume from './Files/Resume.pdf'
 
 const Resume = ( ) => {
   return (
@@ -49,6 +51,11 @@ const Resume = ( ) => {
               </div>
         </li>
     </ol>
+
+    <br /><br /><br />
+    <div className='cent'>
+      <button><Link to={MyResume} target="_blank" download>My Resume</Link></button>
+    </div>
     </div>
     </div>
   )

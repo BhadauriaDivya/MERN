@@ -11,29 +11,44 @@ const Project = () => {
     <div className="yellowline"/>
     <div className="cardd">
       <div className="card">
+        <Link to="/project/todo">
             <img src={ToDoList} className='card-img'/>
             <div>
               <h2>ToDo List</h2>
-              <Link to="/project/todo">Click</Link> 
+              Click 
             </div>
+        </Link>
         </div>
         <div className="card">
+        <Link to="#">
             <img src={TicTacToe} className='card-img'/>
             <div>
               <h2>Tic Tac Toe</h2>
               <p></p>
-              <Link to="#">Click</Link> 
+              Click 
             </div>
+        </Link>
         </div>
         <div className="card">
+        <Link to="#">
             <img src={Amazon} className='card-img'/>
             <div>
               <h2>Amazon Clone</h2>
               <p></p>
-              <Link to="#">Click</Link> 
+              Click 
             </div>
+        </Link>
         </div>
-        
+        <div className="card">
+        <Link to="#">
+            <img src={ToDoList} className='card-img'/>
+            <div>
+              <h2>Project</h2>
+              <p></p>
+              Click 
+            </div>
+        </Link>
+        </div>
     </div>
     </div>
   )

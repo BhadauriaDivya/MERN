@@ -1,25 +1,24 @@
 import React from 'react'
-import './Style.css'
+// import './Style.css'
 
 import { CiLocationOn, CiMail, CiLinkedin } from "react-icons/ci";
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { FiGithub } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 
-import Me from './Images/itme.png'
+import Me from './Image/itme.png'
 import { Link } from 'react-router-dom';
 
 const Aside = () => {
   return (
-    <div>
+    <div className='asi '>
       <aside className="sidebar" data-sidebar>
         <div className='info'>
           <figure className='imgg'>
              <img src={Me} width={150} height={150} alt="That's Me"/>
           </figure>
-          <h2>Divyanshi Bhadauria</h2>
+          <h3>Divyanshi Bhadauria</h3>
           <div className='box'>Front-End Developer</div>
-          <div className='box'>UI/UX Developer</div>
             <div className="line"></div>
               <ul className='list'>
                 <li className='item'>
@@ -52,7 +51,7 @@ const Aside = () => {
                 </li>
                 </ul>
                 <div className="img-wrap">
-              <Link to='https://www.instagram.com/diivyaa_07/'>
+              {/* <Link to='https://www.instagram.com/diivyaa_07/'>
                 <FaInstagram/>
                 </Link> 
               <Link to='https://www.linkedin.com/in/divyanshi-bhadauria/'>
@@ -60,7 +59,7 @@ const Aside = () => {
                 </Link> 
               <Link to='https://github.com/BhadauriaDivya'>
                 <FiGithub/>
-                </Link> 
+                </Link>  */}
               </div>
           </div>
       </aside>

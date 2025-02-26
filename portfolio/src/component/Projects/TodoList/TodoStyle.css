@@ -10,7 +10,7 @@
     padding: 15px;
     margin: 30px;
     border-radius: 10px;
-    height: 85%;
+    height: 75%;
     background-color: #212429;
 }
 .first{
@@ -33,7 +33,7 @@
 .inp{
     text-align: center;
     width: 500px;
-    height: 50px;
+    height: 40px;
 }
 .butto{
     height: 40px;
@@ -45,12 +45,12 @@
 }
 .boxy{
     position: relative;
-    margin-top: 30px;
+    margin-top: 10px;
     /* margin-bottom: 40px; */
     margin-left: 250px;
     margin-right: 250px;
     padding-bottom: 20px;
-    max-height: 300px;
+    max-height: 270px;
     background-color: #2B2E33;
     overflow: scroll;
     border-radius: 5px;
@@ -80,3 +80,9 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   } 
+  .footer{
+    background-color: #30353c;
+    height: 6.5%;
+    padding-top: 20px;
+  }
+
