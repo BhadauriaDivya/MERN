@@ -1,6 +1,7 @@
 :root{
-color-scheme: light dark;
+/* color-scheme: light dark; */
 background-color: black;
+color: whitesmoke;
 }
 *{
     margin: 0px;
