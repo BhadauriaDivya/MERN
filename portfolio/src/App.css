@@ -1,7 +1,6 @@
 :root{
 color-scheme: light dark;
-background-image: url(.\component\Images\backgr.jpg);
-background-size: contain;
+background-color: black;
 }
 *{
     margin: 0px;
